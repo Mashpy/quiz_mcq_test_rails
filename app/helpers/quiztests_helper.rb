@@ -1,0 +1,2 @@
+module QuiztestsHelper
+end

@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question:</strong>
+  <%= @quiztest.question %>
+</p>
+
+<p>
+  <strong>Ansa:</strong>
+  <%= @quiztest.ansA %>
+</p>
+
+<p>
+  <strong>Ansb:</strong>
+  <%= @quiztest.ansB %>
+</p>
+
+<p>
+  <strong>Ansc:</strong>
+  <%= @quiztest.ansC %>
+</p>
+
+<p>
+  <strong>Ansd:</strong>
+  <%= @quiztest.ansD %>
+</p>
+
+<p>
+  <strong>Correct:</strong>
+  <%= @quiztest.correct %>
+</p>
+
+<%= link_to 'Edit', edit_quiztest_path(@quiztest) %> |
+<%= link_to 'Back', quiztests_path %>
